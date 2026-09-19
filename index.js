@@ -18,7 +18,7 @@ const { Boom } = require('@hapi/boom');
 const fs = require('fs-extra');
 const config = require('./config');
 
-const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) });
+// const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) });
 
 async function startBot() {
     const { state, saveCreds } = await useMultiFileAuthState(config.sessionFolder);
@@ -36,7 +36,7 @@ async function startBot() {
         browser: [config.botName, 'Chrome', '1.0.0']
     });
 
-    store.bind(client.ev);
+    // store.bind(client.ev);
 
     client.ev.on('creds.update', saveCreds);
 
