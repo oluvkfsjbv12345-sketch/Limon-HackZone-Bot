@@ -3,7 +3,12 @@
  *   𒆜𝐋𝐢𝐦𝐨𝐧∬𝗛𝗮𝗰𝗸𝗭𝗼𝗻𝗲❦ MD - Main Bot Logic
  * ═══════════════════════════════════════════════
  */
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
 
+app.get('/', (req, res) => res.send('Bot is Alive!'));
+app.listen(port, () => console.log(`Server running on port ${port}`));
 const {
     default: makeWASocket,
     useMultiFileAuthState,
