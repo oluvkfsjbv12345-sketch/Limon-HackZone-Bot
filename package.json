@@ -1,0 +1,25 @@
+{
+  "name": "limon-hackzone-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot - 𒆜𝐋𝐢𝐦𝐨𝐧∬𝗛𝗮𝗰𝗸𝗭𝗼𝗻𝗲❦ MD",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "limon-hackzone"
+  ],
+  "author": "𒆜𝐋𝐢𝐦𝐨𝐧∬𝗛𝗮𝗰𝗸𝗭𝗼𝗻𝗲❦",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "fs-extra": "^11.2.0"
+  }
+}
