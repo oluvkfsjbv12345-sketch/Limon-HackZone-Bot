@@ -60,7 +60,7 @@ module.exports = {
                 externalAdReply: {
                     title: cfg.botName,
                     body: cfg.channelName,
-                    thumbnailUrl: "https://i.ibb.co/6P5v0z9/wa-channel.jpg",
+                    thumbnailUrl: https://i.ibb.co/6R5qX0W/1000067072.jpg
                     sourceUrl: cfg.channelLink,
                     mediaType: 1,
                     renderLargerThumbnail: true,
